@@ -74,7 +74,7 @@ One very important factor in car buying that should additionally be considered i
 - What is the null hypothesis or alternative hypothesis?
 
 Null Hypothesis : The mean price/cost of car is the same across all car brends
-Alternative Hypothesis : The mean price/cost of car is 
+Alternative Hypothesis : At least one Car in the dataset has a different mean cost/price than the other cars.
 
 - What statistical test would you use to test the hypothesis? And why?
 First would start with a paired t-test to get the p-value which then we can compare to the significance level. As well as see the range in the difference of means to gauge where MechaCar lands in the mix.
