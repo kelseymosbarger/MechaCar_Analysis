@@ -13,29 +13,38 @@ R, RStudio
 Data from Module
 
 
+
 ## Results
 ### Linear Regression to Predict MPG
 
-- which variables/coeeficients provided a non-random amount of caraiance to the mpg values in the dataset?
+**- which variables/coeeficients provided a non-random amount of varaiance to the mpg values in the dataset?**
 
 ![image](https://user-images.githubusercontent.com/94019661/161610216-1847361b-c78b-4340-b2b3-24f0cc352c53.png)
 
 vehicle_length and ground_clearance followed by vehicle_weight are the variables with a non-random amount of variance to the mpg values. 
 
-- is the Slope on the linear model condiered to be zero? why or why not?
+
+**- is the Slope on the linear model considered to be zero? why or why not?**
+
 
 ![image](https://user-images.githubusercontent.com/94019661/161610233-22296f60-fa94-46b5-8b77-1857b0a53b79.png)
 
-The slope of the linear model is not cosidered to be zero, becuase the P-value is considerably less than the significance level of 0.05%. In this case it is safe to reject he null hypothesis.
+The slope of the linear model is not cosidered to be zero, becuase the P-value is considerably less than the significance level of 0.05%. In this case it is safe to reject the null hypothesis.
 
-- Does this linear model predict mpg of MechaCar prototypes effectively? why or why not?
 
-The linear model predicts that 71% of MPG estimates are correct using this model. There is a strong correlation between MPG and the 5 variables. It would depend if being 71% probablity of accuracy is enough. 
+
+**- Does this linear model predict mpg of MechaCar prototypes effectively? why or why not?**
+
+
+The linear model predicts that 71% of MPG estimates are correct using this model. There is a strong correlation between MPG and the 5 variables. It would depend if 71% probablity of accuracy is enough. 
+
+
 
 
 ### Summary Statistics on Suspension Coils
 
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+**- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 
 ![image](https://user-images.githubusercontent.com/94019661/161610293-647f02d9-7deb-4b0e-9ee3-3424017538ac.png)
 
@@ -48,7 +57,8 @@ When you cohort the data by manufacturing lot, lots 1 and 2 fall within MechaCar
 
 ### T-Tests on Suspension Coils
 
-- summary of T-Test results.
+
+**- summary of T-Test results.**
 
 ![image](https://user-images.githubusercontent.com/94019661/161610351-3071c991-6f44-4276-ba91-3798ae756211.png)
 
@@ -60,23 +70,30 @@ T-Test for all manufacturing lots for suspension coils has a p-value of 0.6, and
 
 ![image](https://user-images.githubusercontent.com/94019661/161610399-7d6efac4-c2d4-4e05-ab28-e10366ceb123.png)
 
-When analyzing the t-test by maufacturing lot. Lots 1 and 2 are not statistically different enough to reject the null hypothesis. However, Lot 3, with a mean of 1496.14 and p-value of 0.042 which is under the significance level tells us that Lot 3 suspension coils are statistically different from teh population mean.
+When analyzing the t-test by maufacturing lot. Lots 1 and 2 are not statistically different enough to reject the null hypothesis. However, Lot 3, with a mean of 1496.14 and p-value of 0.042 which is under the significance level tells us that Lot 3 suspension coils are statistically different from the population mean.
+
+
 
 
 ## Study Design: MechaCar vs Competition
 
-How does MechaCar stand up against the competition? Additional analysis to ensure that MechaCar holds a competutive advantage in the marketplace.
+How does MechaCar stand up against the competition? Additional analysis to ensure that MechaCar holds a competitive advantage in the marketplace.
 
-- Cost Analysis
+
+**- Cost Analysis**
+
 
 One very important factor in car buying that should additionally be considered is the cost of a MechaCar and how that stacks up to the competition. As well as how well the car hold it's value over time compared to the competition.
 
-- What is the null hypothesis or alternative hypothesis?
 
-Null Hypothesis : The mean price/cost of car is the same across all car brends
-Alternative Hypothesis : At least one Car in the dataset has a different mean cost/price than the other cars.
+**- What is the null hypothesis or alternative hypothesis?**
 
-- What statistical test would you use to test the hypothesis? And why?
+**Null Hypothesis **: The mean price/cost of car is the same across all car brands
+
+**Alternative Hypothesis **: At least one Car in the dataset has a different mean cost/price than the other cars.
+
+**- What statistical test would you use to test the hypothesis? And why?**
+
 First would start with a paired t-test to get the p-value which then we can compare to the significance level. As well as see the range in the difference of means to gauge where MechaCar lands in the mix.
 
 Additional analysis would be to run some linear regression on MechaCar and competitors to see if there are any very strong correlation in price of car to the features in the car and see if there are any trends that are industry wide or if it is brand specific.
