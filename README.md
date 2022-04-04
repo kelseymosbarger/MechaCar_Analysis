@@ -22,8 +22,10 @@ R, RStudio, Data from Module
 
 ![image](https://user-images.githubusercontent.com/94019661/161610216-1847361b-c78b-4340-b2b3-24f0cc352c53.png)
 
-<table><tr><td> vehicle_length and ground_clearance followed by vehicle_weight are the variables with a non-random amount of variance to the mpg values.</td></tr></table> 
+<table><tr><td> 
+ vehicle_length and ground_clearance followed by vehicle_weight are the variables with a 
  
+ non-random amount of variance to the mpg values.</td></tr></table> 
 </td></tr></table> 
 
 
@@ -34,8 +36,11 @@ R, RStudio, Data from Module
 
 ![image](https://user-images.githubusercontent.com/94019661/161610233-22296f60-fa94-46b5-8b77-1857b0a53b79.png)
 
-<table><tr><td> The slope of the linear model is not cosidered to be zero, 
+<table><tr><td> 
+ The slope of the linear model is not cosidered to be zero, 
+ 
  becuase the P-value is considerably less than the significance level of 0.05%. 
+ 
  In this case it is safe to reject the null hypothesis.</td></tr></table> 
  
 </td></tr></table> 
@@ -47,8 +52,11 @@ R, RStudio, Data from Module
 #### Does this linear model predict mpg of MechaCar prototypes effectively? why or why not?
 
 
-<table><tr><td> The linear model predicts that 71% of MPG estimates are correct using this
+<table><tr><td> 
+ The linear model predicts that 71% of MPG estimates are correct using this
+ 
  model. There is a strong correlation between MPG and the 5 variables. It would depend if 
+ 
  71% probablity of accuracy is enough. </td></tr></table> 
  
 </td></tr></table> 
@@ -62,17 +70,29 @@ R, RStudio, Data from Module
 <table><tr><td>
  
 #### The design specifications for the MechaCar suspension coils dictate that the variance 
-of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing 
-data meet this design specification for all manufacturing lots in total and each lot individually? 
- Why or why not?
+ 
+#### of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing 
+ 
+#### data meet this design specification for all manufacturing lots in total and each lot individually? 
+ 
+#### Why or why not?
 
 ![image](https://user-images.githubusercontent.com/94019661/161610293-647f02d9-7deb-4b0e-9ee3-3424017538ac.png)
 
-<table><tr><td> Looking at the total_summary, you can see that the variance of the suspension coils for all of the lots is 62.29. This view of the data is within the 100 PSI max MechaCar design specifications. </td></tr></table> 
+<table><tr><td> 
+ Looking at the total_summary, you can see that the variance of the suspension coils for all 
+ 
+ of the lots is 62.29. This view of the data is within the 100 PSI max MechaCar design specifications. 
+ </td></tr></table> 
 
 ![image](https://user-images.githubusercontent.com/94019661/161610323-47e53d0d-5a37-48c3-9860-d9da0956dbfc.png)
 
-<table><tr><td> When you cohort the data by manufacturing lot, lots 1 and 2 fall within MechaCar's design specifications. However, as you can see with Lot 3 - the variance is ~170 which far exceeds the design specs for MechaCar.</td></tr></table> 
+<table><tr><td> 
+When you cohort the data by manufacturing lot, lots 1 and 2 fall within MechaCar's design specifications.
+ 
+ However, as you can see with Lot 3 - the variance is ~170 which far exceeds the design specs for MechaCar.
+ 
+ </td></tr></table> 
  
 </td></tr></table> 
 
@@ -87,7 +107,13 @@ data meet this design specification for all manufacturing lots in total and each
 
 ![image](https://user-images.githubusercontent.com/94019661/161610351-3071c991-6f44-4276-ba91-3798ae756211.png)
 
-<table><tr><td> T-Test for all manufacturing lots for suspension coils has a p-value of 0.6, and the mean is 1498.78 vs 1500. The p-value indicates that the mean vs the population mean are statistically similar since it is above the 0.05 significance level.</td></tr></table> 
+<table><tr><td> 
+ T-Test for all manufacturing lots for suspension coils has a p-value of 0.6, and the mean is 1498.78 vs 1500.
+ 
+ The p-value indicates that the mean vs the population mean are statistically similar 
+ 
+ since it is above the 0.05 significance level.
+ </td></tr></table> 
 
 
 ![image](https://user-images.githubusercontent.com/94019661/161610371-f1b5c017-0a73-436b-b93f-22c2389644b8.png)
@@ -97,7 +123,13 @@ data meet this design specification for all manufacturing lots in total and each
 ![image](https://user-images.githubusercontent.com/94019661/161610399-7d6efac4-c2d4-4e05-ab28-e10366ceb123.png)
 
 
-<table><tr><td> When analyzing the t-test by maufacturing lot. Lots 1 and 2 are not statistically different enough to reject the null hypothesis. However, Lot 3, with a mean of 1496.14 and p-value of 0.042 which is under the significance level tells us that Lot 3 suspension coils are statistically different from the population mean.</td></tr></table> 
+<table><tr><td> 
+ When analyzing the t-test by maufacturing lot. Lots 1 and 2 are not statistically different enough to reject 
+ 
+ the null hypothesis. However, Lot 3, with a mean of 1496.14 and p-value of 0.042 which is under the 
+ 
+ significance level tells us that Lot 3 suspension coils are statistically different from the population mean.
+ </td></tr></table> 
  
 </td></tr></table> 
 
@@ -113,7 +145,12 @@ How does MechaCar stand up against the competition? Additional analysis to ensur
 #### Metric to be Tested
 
 
-<table><tr><td> One very important factor in car buying that should additionally be considered is the cost of a MechaCar and how that stacks up to the competition. As well as how well the car hold it's value over time compared to the competition.</td></tr></table> 
+<table><tr><td> 
+ One very important factor in car buying that should additionally be considered is the cost 
+ 
+ of a MechaCar and how that stacks up to the competition. As well as how well the car hold it's value over 
+ 
+ time compared to the competition.</td></tr></table> 
 
 
 #### What is the null hypothesis or alternative hypothesis?**
