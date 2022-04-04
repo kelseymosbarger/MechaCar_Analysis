@@ -18,13 +18,13 @@ Data from Module
 
 - which variables/coeeficients provided a non-random amount of caraiance to the mpg values in the dataset?
 
-Screenshot***
+![image](https://user-images.githubusercontent.com/94019661/161610216-1847361b-c78b-4340-b2b3-24f0cc352c53.png)
 
 vehicle_length and ground_clearance followed by vehicle_weight are the variables with a non-random amount of variance to the mpg values. 
 
 - is the Slope on the linear model condiered to be zero? why or why not?
 
-Screenshot
+![image](https://user-images.githubusercontent.com/94019661/161610233-22296f60-fa94-46b5-8b77-1857b0a53b79.png)
 
 The slope of the linear model is not cosidered to be zero, becuase the P-value is considerably less than the significance level of 0.05%. In this case it is safe to reject he null hypothesis.
 
@@ -37,11 +37,11 @@ The linear model predicts that 71% of MPG estimates are correct using this model
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-screenshot total_summary image (with summary of it)
+![image](https://user-images.githubusercontent.com/94019661/161610293-647f02d9-7deb-4b0e-9ee3-3424017538ac.png)
 
 Looking at the total_summary, you can see that the variance of the suspension coils for all of the lots is 62.29. This view of the data is within the 100 PSI max MechaCar design specifications. 
 
-screenshot lot_summary image (with summary of it)
+![image](https://user-images.githubusercontent.com/94019661/161610323-47e53d0d-5a37-48c3-9860-d9da0956dbfc.png)
 
 When you cohort the data by manufacturing lot, lots 1 and 2 fall within MechaCar's design specifications. However, as you can see with Lot 3 - the variance is ~170 which far exceeds the design specs for MechaCar.
 
@@ -50,15 +50,15 @@ When you cohort the data by manufacturing lot, lots 1 and 2 fall within MechaCar
 
 - summary of T-Test results.
 
-Screenshot
+![image](https://user-images.githubusercontent.com/94019661/161610351-3071c991-6f44-4276-ba91-3798ae756211.png)
 
 T-Test for all manufacturing lots for suspension coils has a p-value of 0.6, and the mean is 1498.78 vs 1500. The p-value indicates that the mean vs the population mean are statistically similar since it is above the 0.05 significance level.
 
-Screenshot
+![image](https://user-images.githubusercontent.com/94019661/161610371-f1b5c017-0a73-436b-b93f-22c2389644b8.png)
 
-Screenshot
+![image](https://user-images.githubusercontent.com/94019661/161610382-47c4a0fc-dd79-4ec5-8aeb-ebe40dde6fbf.png)
 
-Screenshot
+![image](https://user-images.githubusercontent.com/94019661/161610399-7d6efac4-c2d4-4e05-ab28-e10366ceb123.png)
 
 When analyzing the t-test by maufacturing lot. Lots 1 and 2 are not statistically different enough to reject the null hypothesis. However, Lot 3, with a mean of 1496.14 and p-value of 0.042 which is under the significance level tells us that Lot 3 suspension coils are statistically different from teh population mean.
 
