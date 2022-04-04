@@ -163,6 +163,7 @@ The first tests to run are linear regression on the different variables to see w
 the Purchase Price
  
 Secondly, T-Test would be ran for all of the car data, similarly to above. This would measure mean the selling price of 
+ 
 MechaCar and competition and provide a p-value. Then you could measure each vehicle class that MechaCar has a car in 
 and see how they fall within those grouping with the competition.
  </td></tr></table> 
@@ -172,7 +173,9 @@ and see how they fall within those grouping with the competition.
 
 <table><tr><td> 
 You would need to collect a dataset that is identical to the provided mechacar one for the competitiors car and a way to indentify
+ 
  it as such. Then integrate selling prices for each vehicle and add it to the dataeset. Lastly for vehicle class, you would need to 
+ 
  define each vehicle class and what rules based on the data ie length, size, price to assign it a vehicle class grouping.
 </td></tr></table> 
  
