@@ -96,7 +96,7 @@ When you cohort the data by manufacturing lot, lots 1 and 2 fall within MechaCar
 
 <table><tr><td>
  
-#### summary of T-Test results.
+##### summary of T-Test results.
 
 ![image](https://user-images.githubusercontent.com/94019661/161610351-3071c991-6f44-4276-ba91-3798ae756211.png)
 
@@ -130,43 +130,51 @@ When you cohort the data by manufacturing lot, lots 1 and 2 fall within MechaCar
 
 ## Study Design: MechaCar vs Competition
 
-How does MechaCar stand up against the competition? Additional analysis to ensure that MechaCar holds a competitive advantage in the marketplace.
-
+Additional analysis, broken out below will provide more information on where MechaCar falls when 
+being compared to competition.
 
 <table><tr><td>
  
-#### Metric to be Tested
-
+##### Metric to be Tested
 
 <table><tr><td> 
- One very important factor in car buying that should additionally be considered is the cost 
+ One very important factor when buying a car is **Purchase Price** as well as a **vehicle class** by 
+ adding in a vehicle class to the dataset as well is selling price in addition to adding this information
+ for the competition.
  
- of a MechaCar and how that stacks up to the competition. As well as how well the car hold it's value over 
- 
- time compared to the competition.</td></tr></table> 
+</td></tr></table> 
 
 
-#### What is the null hypothesis or alternative hypothesis?**
+##### What is the null hypothesis or alternative hypothesis?**
 
  <table><tr><td> 
   
-  **Null Hypothesis** :  The mean price/cost of car is the same across all car brands
+  **Null Hypothesis** :  The mean purchase price of car is the same across all car brands within vehicle class grouping
   
-  **Alternative Hypothesis** : At least one Car in the dataset has a different mean cost/price than the other cars.</td></tr></table> 
+  **Alternative Hypothesis** : At least one car in the dataset has a different mean than the other vehicles in that group.
+  
+  </td></tr></table> 
 
 
-#### What statistical test would you use to test the hypothesis? And why?
+##### What statistical test would you use to test the hypothesis? And why?
 
-<table><tr><td> First would start with a paired t-test to get the p-value which then we can compare to the significance level. As well as see the range in the difference of means to gauge where MechaCar lands in the mix.</td></tr></table> 
+<table><tr><td> 
+The first tests to run are linear regression on the different variables to see which have the strongest correlation to
+the Purchase Price
+ 
+Secondly, T-Test would be ran for all of the car data, similarly to above. This would measure mean the selling price of 
+MechaCar and competition and provide a p-value. Then you could measure each vehicle class that MechaCar has a car in 
+and see how they fall within those grouping with the competition.
+ </td></tr></table> 
 
 
-#### Data Required
+##### Data Required
 
-<table><tr><td> Additional analysis would be to run some linear regression on MechaCar and competitors to see if there are any very strong correlation in price of car to the features in the car and see if there are any trends that are industry wide or if it is brand specific.
-
-You would need data on competing cars, including the information that was provided in the module and a cost dataset. You would probably want to include ~300 car dataset to get a full picture of the copmpetitive landscape.
-
-Redisual/resale value would be harder to measure as there is much more variability that goes into selling a used car, but nonetheless would be an interesting sales point.</td></tr></table> 
+<table><tr><td> 
+You would need to collect a dataset that is identical to the provided mechacar one for the competitiors car and a way to indentify
+ it as such. Then integrate selling prices for each vehicle and add it to the dataeset. Lastly for vehicle class, you would need to 
+ define each vehicle class and what rules based on the data ie length, size, price to assign it a vehicle class grouping.
+</td></tr></table> 
  
 </td></tr></table> 
 
