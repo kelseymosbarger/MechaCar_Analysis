@@ -18,7 +18,8 @@ R, RStudio, Data from Module
 ### Linear Regression to Predict MPG
 
 <table><tr><td>
-#### which variables/coeeficients provided a non-random amount of varaiance to the mpg values in the dataset?
+ 
+### which variables/coeeficients provided a non-random amount of varaiance to the mpg values in the dataset?
 
 ![image](https://user-images.githubusercontent.com/94019661/161610216-1847361b-c78b-4340-b2b3-24f0cc352c53.png)
 
@@ -27,6 +28,7 @@ R, RStudio, Data from Module
 
 
 <table><tr><td>
+ 
 #### is the Slope on the linear model considered to be zero? why or why not?
 
 
