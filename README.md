@@ -151,6 +151,7 @@ How does MechaCar stand up against the competition? Additional analysis to ensur
  <table><tr><td> 
   
   **Null Hypothesis** :  The mean price/cost of car is the same across all car brands
+  
   **Alternative Hypothesis** : At least one Car in the dataset has a different mean cost/price than the other cars.</td></tr></table> 
 
 
