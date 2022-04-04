@@ -18,7 +18,9 @@ R, RStudio, Data from Module
 
 <table><tr><td>
  
-<tr><td>#### Which variables/coeeficients provided a non-random amount of varaiance to the mpg values in the dataset?</td></tr>
+<td>
+#### Which variables/coeeficients provided a non-random amount of varaiance to the mpg values in the dataset?
+</td>
 
 ![image](https://user-images.githubusercontent.com/94019661/161610216-1847361b-c78b-4340-b2b3-24f0cc352c53.png)
 
