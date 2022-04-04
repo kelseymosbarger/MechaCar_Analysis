@@ -18,7 +18,7 @@ R, RStudio, Data from Module
 
 <table><tr><td>
  
-#### Which variables/coeeficients provided a non-random amount of varaiance to the mpg values in the dataset?
+<tr><td>#### Which variables/coeeficients provided a non-random amount of varaiance to the mpg values in the dataset?</td></tr>
 
 ![image](https://user-images.githubusercontent.com/94019661/161610216-1847361b-c78b-4340-b2b3-24f0cc352c53.png)
 
@@ -34,7 +34,9 @@ R, RStudio, Data from Module
 
 ![image](https://user-images.githubusercontent.com/94019661/161610233-22296f60-fa94-46b5-8b77-1857b0a53b79.png)
 
-<table><tr><td> The slope of the linear model is not cosidered to be zero, becuase the P-value is considerably less than the significance level of 0.05%. In this case it is safe to reject the null hypothesis.</td></tr></table> 
+<table><tr><td> The slope of the linear model is not cosidered to be zero, 
+ becuase the P-value is considerably less than the significance level of 0.05%. 
+ In this case it is safe to reject the null hypothesis.</td></tr></table> 
  
 </td></tr></table> 
 
@@ -45,7 +47,9 @@ R, RStudio, Data from Module
 #### Does this linear model predict mpg of MechaCar prototypes effectively? why or why not?
 
 
-<table><tr><td> The linear model predicts that 71% of MPG estimates are correct using this model. There is a strong correlation between MPG and the 5 variables. It would depend if 71% probablity of accuracy is enough. </td></tr></table> 
+<table><tr><td> The linear model predicts that 71% of MPG estimates are correct using this
+ model. There is a strong correlation between MPG and the 5 variables. It would depend if 
+ 71% probablity of accuracy is enough. </td></tr></table> 
  
 </td></tr></table> 
 
@@ -57,7 +61,10 @@ R, RStudio, Data from Module
 
 <table><tr><td>
  
-#### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
+#### The design specifications for the MechaCar suspension coils dictate that the variance 
+of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing 
+data meet this design specification for all manufacturing lots in total and each lot individually? 
+ Why or why not?
 
 ![image](https://user-images.githubusercontent.com/94019661/161610293-647f02d9-7deb-4b0e-9ee3-3424017538ac.png)
 
