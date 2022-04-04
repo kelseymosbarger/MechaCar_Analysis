@@ -149,7 +149,7 @@ How does MechaCar stand up against the competition? Additional analysis to ensur
 #### What is the null hypothesis or alternative hypothesis?**
 
  <table><tr><td>  
-  **Null Hypothesis** : _
+  **Null Hypothesis** : 
   The mean price/cost of car is the same across all car brands
 
   **Alternative Hypothesis** : 
