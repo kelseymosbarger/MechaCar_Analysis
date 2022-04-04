@@ -18,7 +18,7 @@ R, RStudio, Data from Module
 
 <table><tr><td>
  
-#### Which variables/coeeficients provided a non-random amount of varaiance to the mpg values in the dataset?
+##### Which variables/coeeficients provided a non-random amount of varaiance to the mpg values in the dataset?
 
 ![image](https://user-images.githubusercontent.com/94019661/161610216-1847361b-c78b-4340-b2b3-24f0cc352c53.png)
 
@@ -31,7 +31,7 @@ R, RStudio, Data from Module
 
 <table><tr><td>
  
-#### is the Slope on the linear model considered to be zero? why or why not?
+##### is the Slope on the linear model considered to be zero? why or why not?
 
 
 ![image](https://user-images.githubusercontent.com/94019661/161610233-22296f60-fa94-46b5-8b77-1857b0a53b79.png)
@@ -47,7 +47,7 @@ R, RStudio, Data from Module
 
 <table><tr><td>
  
-#### Does this linear model predict mpg of MechaCar prototypes effectively? why or why not?
+##### Does this linear model predict mpg of MechaCar prototypes effectively? why or why not?
 
 
 <table><tr><td> 
@@ -66,10 +66,9 @@ R, RStudio, Data from Module
 
 <table><tr><td>
  
-#### The design specifications for the MechaCar suspension coils dictate that the variance 
-#### of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing 
-#### data meet this design specification for all manufacturing lots in total and each lot individually? 
-#### Why or why not?
+##### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils 
+##### must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all 
+##### manufacturing lots in total and each lot individually? Why or why not?
 
 ![image](https://user-images.githubusercontent.com/94019661/161610293-647f02d9-7deb-4b0e-9ee3-3424017538ac.png)
 
@@ -150,10 +149,10 @@ How does MechaCar stand up against the competition? Additional analysis to ensur
 #### What is the null hypothesis or alternative hypothesis?**
 
  <table><tr><td>  
-  **Null Hypothesis : **
+  ######Null Hypothesis : 
   The mean price/cost of car is the same across all car brands
 
-  **Alternative Hypothesis : **
+  ######Alternative Hypothesis : 
   At least one Car in the dataset has a different mean cost/price than the other cars.</td></tr></table> 
 
 
